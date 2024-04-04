@@ -1,8 +1,5 @@
-import 'package:flutter/material.dart';
 
-import '../models/exchange_rate.dart';
 import '../services/currency_service.dart';
-import 'currency_dropdown.dart';
 
 class CurrencyApp extends StatefulWidget {
   @override
@@ -56,4 +53,4 @@ class _CurrencyAppState extends State<CurrencyApp> {
     CurrencyDropdown(
     currencies: currencies,
     selectedCurrency: baseCurrency,
-    onChanged: (value) => setState(() => baseCurrency = value
+    onChanged: (value) => setState(() => baseCurrency = value;
